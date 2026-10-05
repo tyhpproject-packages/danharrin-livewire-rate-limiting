@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/danharrin-livewire-rate-limiting",
+    "description": "Tyhp type definitions for danharrin/livewire-rate-limiting 2.3.0.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "2.3.0",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/danharrin-livewire-rate-limiting-impl": "~2.3.0.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/danharrin-livewire-rate-limiting-impl"
+        }
+    }
+}
